@@ -15,43 +15,80 @@
             background-color: #f9f9f9;
         }
         h1 { color: #1a1a1a; border-bottom: 2px solid #ffd700; padding-bottom: 10px; }
-        h2 { color: #333; margin-top: 30px; }
+        h2 { color: #333; margin-top: 30px; font-size: 1.2em; }
+        h3 { color: #444; margin-top: 20px; font-size: 1em; }
         .update-date { color: #666; font-size: 14px; }
         .contact { background: #fff; padding: 15px; border-radius: 8px; margin: 20px 0; }
         .important { background: #fff3cd; padding: 15px; border-radius: 8px; border-left: 4px solid #ffd700; margin: 15px 0; }
         ul { padding-left: 20px; }
         li { margin-bottom: 8px; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #ffd700; }
     </style>
 </head>
 <body>
     <h1>Vote アプリ プライバシーポリシー</h1>
     <p class="update-date">最終更新日: 2026年3月3日</p>
     
-    <p>本プライバシーポリシー（以下「本ポリシー」）は、個人情報の取扱いについて定めるものです。</p>
+    <p>本プライバシーポリシー（以下「本ポリシー」）は、Vote（以下「本アプリ」）における個人情報の取扱いについて定めるものです。本アプリをダウンロード、インストール、または使用することにより、利用者は本ポリシーに同意したものとみなされます。</p>
 
     <h2>第1条（事業者情報）</h2>
     <div class="contact">
-        <p><strong>事業者名</strong>: NEO COSMO</p>
+        <p><strong>事業者名</strong>: NEO COSMO（個人事業主）</p>
         <p><strong>お問い合わせ</strong>: contactjhon85@gmail.com</p>
     </div>
+    <p>※アプリ内課金に関する販売者はApple Inc.となります。</p>
 
     <h2>第2条（収集する情報）</h2>
-    <ul>
-        <li><strong>利用者が提供する情報：</strong>氏名、年齢、性別、学校名、学年、プロフィール写真、Apple ID情報。</li>
-        <li><strong>自動的に収集する情報：</strong>デバイス情報、位置情報（許可時のみ）、アプリ内使用状況、診断データ（パフォーマンスデータ）。</li>
-    </ul>
+    <h3>2.1 利用者が直接提供する情報</h3>
+    <table>
+        <tr><th>情報の種類</th><th>詳細</th></tr>
+        <tr><td>氏名</td><td>日本語表記および英語表記</td></tr>
+        <tr><td>年齢・生年月日</td><td>年齢確認のため</td></tr>
+        <tr><td>性別</td><td>プロフィール情報として</td></tr>
+        <tr><td>学校情報</td><td>学校名、学年</td></tr>
+        <tr><td>プロフィール写真</td><td>任意で設定可能</td></tr>
+        <tr><td>ユーザーネーム</td><td>アカウント識別用</td></tr>
+        <tr><td>Apple ID情報</td><td>認証および本人確認のため</td></tr>
+    </table>
+
+    <h3>2.2 自動的に収集される情報</h3>
+    <table>
+        <tr><th>情報の種類</th><th>詳細</th></tr>
+        <tr><td>デバイス情報</td><td>デバイスの種類、OS、固有識別子</td></tr>
+        <tr><td>位置情報</td><td>許可された場合のみ、学校特定等に使用</td></tr>
+        <tr><td>アプリ使用状況</td><td>機能の利用頻度、利用時間等</td></tr>
+        <tr><td>ログ情報</td><td>アクセス日時、IPアドレス、エラーログ</td></tr>
+        <tr><td>通知トークン</td><td>プッシュ通知送信のため</td></tr>
+    </table>
+
+    <h3>2.3 サービス利用により生成される情報</h3>
+    <table>
+        <tr><th>情報の種類</th><th>詳細</th></tr>
+        <tr><td>投票データ</td><td>送信した投票、受信した投票の内容・日時</td></tr>
+        <tr><td>フレイム・コイン</td><td>獲得履歴、使用履歴</td></tr>
+        <tr><td>友達関係</td><td>友達リスト、リクエスト履歴</td></tr>
+        <tr><td>購入履歴</td><td>プレミアムサービス、アプリ内課金の記録</td></tr>
+    </table>
 
     <h2>第3条（情報の利用目的）</h2>
     <ul>
         <li>サービスの提供、本人確認、および投票機能の実現。</li>
+        <li>同じ学校の利用者とのマッチング。</li>
         <li>サブスクリプション管理および不正利用の防止。</li>
-        <li>サービス改善のための分析、およびマーケティング（広告含む）への活用。</li>
+        <li>サービス改善のための分析。</li>
+        <li>プッシュ通知の送信、お知らせ・アップデート情報の配信。</li>
+        <li>マーケティング（広告含む）への活用。</li>
+        <li>法的義務の履行。</li>
     </ul>
 
     <h2>第4条（第三者提供と外部委託）</h2>
     <ul>
         <li>当事業は、法令に基づく場合を除き、同意なく個人情報を第三者に提供しません。</li>
         <li>ただし、広告配信事業者（サードパーティ広告）に対し、個人を特定できない形式で使用状況データ等を提供することがあります。</li>
+        <li>サービス提供に必要なパートナー企業（Firebase、Apple等）への提供を行う場合があります。</li>
+        <li>事業譲渡、合併の場合に情報が移転することがあります。</li>
     </ul>
 
     <h2>第5条（情報の安全管理と免責）</h2>
@@ -62,13 +99,43 @@
         </ul>
     </div>
 
-    <h2>第6条（アカウント削除）</h2>
+    <h2>第6条（情報の保存期間）</h2>
+    <table>
+        <tr><th>情報の種類</th><th>保存期間</th></tr>
+        <tr><td>アカウント情報</td><td>アカウント削除後30日間</td></tr>
+        <tr><td>投票データ</td><td>サービス終了まで</td></tr>
+        <tr><td>ログ情報</td><td>収集から1年間</td></tr>
+        <tr><td>取引記録</td><td>法令に基づき5年間</td></tr>
+    </table>
+    <p>※法的義務、紛争解決のため、上記期間を超えて保存する場合があります。</p>
+
+    <h2>第7条（利用者の権利）</h2>
+    <ul>
+        <li><strong>アクセス権:</strong> 自己の個人情報へのアクセスを要求する権利</li>
+        <li><strong>訂正権:</strong> 不正確な個人情報の訂正を要求する権利</li>
+        <li><strong>削除権:</strong> アカウント削除を通じて個人情報の削除を要求する権利</li>
+    </ul>
     <p>利用者はアプリ内の設定からいつでもアカウントを削除し、情報の利用を停止することができます。</p>
 
-    <h2>第7条（お問い合わせ）</h2>
+    <h2>第8条（位置情報の取扱い）</h2>
+    <ul>
+        <li>位置情報は、利用者の明示的な許可がある場合のみ収集されます。</li>
+        <li>位置情報は、主に学校の特定・確認のために使用されます。</li>
+        <li>位置情報の収集は、デバイスの設定からいつでも無効化できます。</li>
+    </ul>
+
+    <h2>第9条（プライバシーポリシーの変更）</h2>
+    <p>当事業は、必要に応じて本ポリシーを変更することがあります。変更後も本アプリの利用を継続した場合、変更に同意したものとみなします。</p>
+
+    <h2>第10条（準拠法・管轄裁判所）</h2>
+    <p>本ポリシーは、日本法に準拠し、解釈されます。本ポリシーに関する紛争は、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+
+    <h2>第11条（お問い合わせ）</h2>
     <div class="contact">
         <p>本ポリシーに関するお問い合わせは、以下までご連絡ください：</p>
         <p><strong>メール</strong>: contactjhon85@gmail.com</p>
     </div>
+
+    <p style="text-align: center; margin-top: 40px; color: #666;">© 2026 Vote. All rights reserved.</p>
 </body>
 </html>
